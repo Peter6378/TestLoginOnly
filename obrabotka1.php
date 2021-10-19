@@ -58,7 +58,7 @@ if (empty ($result1)) {
 $myrow1 = mysql_fetch_array($result1, MYSQL_ASSOC);
 
 if ($myrow1['password']== md5( "$password" )) {
-	echo "Congrats! You are successfulli voshli na sait! Vashi dannie: <br>";
+	echo "Congrats! Slava Ktulhu! Pastafariantsam Slava! Vashi dannie: <br>";
 	echo $myrow1['name'], PHP_EOL, "<br>";
 	echo $myrow1['adress'], PHP_EOL, "<br>";
 	echo $myrow1['birthday'];
